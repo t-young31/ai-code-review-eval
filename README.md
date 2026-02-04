@@ -8,8 +8,8 @@ Development velocity is enhanced by using a AI code review tool before creating 
 
 - Best is a function of: {cost, accuracy, ease of use, execution time}.
 - Models: Gemini 2.5, Claude X, OpenAPI Codex
-- Running gemini with `gemini -s`
-- Running codex with `codex --sandbox read-only --ask-for-approval on-request`
+- Running gemini with `gemini -s` then [`/code-review`](https://github.com/gemini-cli-extensions/code-review)
+- Running codex with `codex --sandbox read-only --ask-for-approval on-request` then `/review`
 - Running claude with `claude --permission-mode plan`
 
 ## Results
@@ -24,8 +24,18 @@ Development velocity is enhanced by using a AI code review tool before creating 
 1. Codex 5.2. Accuracy: 1.5/2. Time: 1m. Overlap: 1/2. Usefulness: 3
 1. Claude Opus 4.5. Accuracy 5/8. Overlap 1/8. Usefulness: 2. Comment: `Error: File content (28937 tokens) exceeds maximum allowed tokens (25000). Please use offset and limit parameters to read specific portions of the file, or use the GrepTool to search for specific content.`
 
+### https://github.com/ucl-arc-tre/egress/pull/29
+
+1. Gemini 2.5. Accuracy: 1/2. Time <1m. Overlap: 1/2. Usefulness: 4
+1. Codex 5.2. Accuracy 1/2. Time 2m. Overlap: 1/2. Usefulness: 2. Comment: One issue completely incorrect.
+1. Claude Opus 4.5. Accuracy 4/9 Time 5m. Overlap 2/2. Usefulness: 3
+
 ## Conclusion
 
 <!--
 Gemini/Claude/CodeRabbit/Copilot should/n't be used for code review
 --->
+
+## Aside
+
+- Found the Claude CLI to be buggy and painful to use

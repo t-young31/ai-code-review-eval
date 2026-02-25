@@ -30,6 +30,13 @@ Development velocity is enhanced by using a AI code review tool before creating 
 1. Codex 5.2. Accuracy 1/2. Time 2m. Overlap: 1/2. Usefulness: 2. Comment: One issue completely incorrect.
 1. Claude Opus 4.5. Accuracy 4/9 Time 5m. Overlap 2/2. Usefulness: 3
 
+
+### https://github.com/ucl-arc-tre/egress/pull/41
+
+1. Gemini 2.5. Accuracy 3/5. Time 2m. Overlap 2/5. Usefulness: 4
+1. Codex 5.2.  Accuracy 1/1. Time ~1m. Overlap: 0/1. Usefulness: 5
+1. Claude. Got annoyed with it.
+
 ## Conclusion
 
 <!--
